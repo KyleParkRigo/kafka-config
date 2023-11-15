@@ -1,0 +1,6 @@
+user_name: ec2-user
+krb_realm: FOO.BAR
+krb_dns: foo.bar
+kadmin_pass: bridgepass
+kdc_server: bridge-kafka-zk01
+kafkaversion: 2.6.0

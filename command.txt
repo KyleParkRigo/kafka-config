@@ -1,0 +1,7 @@
+sudo amazon-linux-extras install -y ansible2
+
+ansible-playbook -i hosts zookeeper.yml
+sudo systemctl status zookeeper-server
+
+ansible-playbook -i hosts kafka.yml
+sudo systemctl status kafka-server
