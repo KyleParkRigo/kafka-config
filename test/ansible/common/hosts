@@ -1,0 +1,9 @@
+[zkhosts]
+bridge-kafka-zk01.foo.bar
+bridge-kafka-zk02.foo.bar
+bridge-kafka-zk03.foo.bar
+
+[kafkahosts]
+bridge-kafka-kafka01.foo.bar
+bridge-kafka-kafka02.foo.bar
+bridge-kafka-kafka03.foo.bar
